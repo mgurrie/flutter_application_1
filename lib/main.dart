@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'firstscreen.dart';
 import 'secondscreen.dart';
+import 'homepage2.dart';
 import 'videos.dart';
+import 'profile.dart';
 
 void main() {
   runApp(MyApp());
@@ -50,7 +52,7 @@ class _HomePageState extends State<HomePage> {
             child: Align(
               alignment: Alignment.bottomCenter,
               child: Container(
-                height: isSignUpMode ? 591 : 380,
+                height: isSignUpMode ? 591 : 380, // Don't Change
                 padding: EdgeInsets.all(20.0),
                 decoration: BoxDecoration(
                   color: const Color.fromARGB(255, 66, 66, 66).withOpacity(0.9),
@@ -104,7 +106,8 @@ class _HomePageState extends State<HomePage> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => YouTubeScreen()),
+                MaterialPageRoute(
+                    builder: (context) => MyHomePage(title: "Some Title")),
               );
             },
             style: ElevatedButton.styleFrom(
