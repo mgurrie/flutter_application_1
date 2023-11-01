@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'firstscreen.dart';
 import 'secondscreen.dart';
 import 'homepage2.dart';
-import 'videos.dart';
-import 'profile.dart';
 
 void main() {
   runApp(MyApp());
