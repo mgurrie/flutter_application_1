@@ -1,0 +1,33 @@
+name: namer_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_player_flutter: ^8.0.0
+  visibility_detector: ^0.2.2
+  google_nav_bar: ^5.0.6
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  video_player: ^2.7.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - lib/assets/home_background.png
+  - lib/assets/home_background_1.png
+  - lib/assets/brief_logo_1.png
